@@ -6,10 +6,10 @@ Cyclistic bike-share case study analyzing user behavior and membership patterns 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning/Preparation](#data-cleaning/prepation)
+- [Data Cleaning-Preparation](#data-cleaning-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results/findings](#results-findings)
+- [Results / findings](#results--findings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 - 
