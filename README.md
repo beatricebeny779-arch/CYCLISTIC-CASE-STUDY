@@ -69,6 +69,20 @@ Maybe you had to remove or exclude some records during your analysis because may
 ### References
 1. SQL for Businesses by Wangwan
 2. [Stack Overflow](https://stackoverflow.com)
-3. 
 
+😆
+
+💻
+
+🔥
+|Heading1|Heading2|Heading3|
+|--------|---------|--------|
+|Content1|Content2|Content3|
+|Python|SQL|Excel|
+
+`column 1`
+
+**bold**
+
+*italic*
 
