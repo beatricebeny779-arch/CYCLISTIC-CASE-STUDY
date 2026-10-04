@@ -1,3 +1,9 @@
+## Beatrice Benson - Data Analyst Portfolio
+This is a repository I have created to showcase skills, share projects and track my progress in Data Analytics and other related topics.
+
+
+
+
 # CYCLISTIC-CASE-STUDY
 Cyclistic bike-share case study analyzing user behavior and membership patterns to generate data-driven business insights.
 
