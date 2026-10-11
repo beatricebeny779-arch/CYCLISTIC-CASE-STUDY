@@ -1,11 +1,42 @@
-## Beatrice Benson - Data Analyst Portfolio
-This is a repository I have created to showcase skills, share projects and track my progress in Data Analytics and other related topics.
-
-
-
-
 ## CYCLISTIC-CASE-STUDY
-Cyclistic bike-share case study analyzing user behavior and membership patterns to generate data-driven business insights.
+
+## Project Overview
+
+The Cyclistic Case study is a capstone project from the Google Data Analytics Professional Certificate on Coursera. It explores how casual riders and annual members use Cyclistic's bike-sharing service differently.
+
+### Business Scenario
+
+In 2016, Cyclistic company launched a successful bike-share offering. The company’s success depends on maximizing the number of annual memberships. The marketing team wants to understand differences in riding behavior between casual riders and annual members, and  from these insights, your team will design a new marketing strategy to convert casual riders into annual members.
+
+The case study follows the six step data analysis process
+
+❓ Ask
+
+📋 Prepare
+
+🛠️ Process
+
+📊 Analyze
+
+📢 Share
+
+🚴 Act
+
+**1. ASK**
+
+
+
+**Business Task**: Cyclistic aims to increase annual memberships. The marketing team wants to understand differences in riding behavior between casual riders and annual members to develop effective marketing strategies.
+
+Business Task
+
+
+
+
+
+
+
+
 
 ## Table of Contents 
 
