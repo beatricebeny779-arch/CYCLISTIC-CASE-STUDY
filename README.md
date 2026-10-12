@@ -53,7 +53,26 @@ The dataset has 12 CSV files, 14 columns and 6.1 million rows. The data also fol
 
 **3. PROCESS**
 
-**Tool**: Python (Pandas in Google colab)
+Data Cleaning Process, 
+
+**Tool used**: Excel Power Query
+
+I used Excel Power Query to combine and clean the 12 monthly CSV files. The cleaning pipeline involved five stages.
+
+1. Combined all the 12 monthly CSV files from the source folder and stacked into a single query using Power Query's features.
+
+2. Converted data types, `started_at` and `ended_at` were converted from text to Date/Time; rows with unparseable dates were removed.
+
+3. Added the **`ride length`** - a custom column calculated as`Duration.TotalMinutes([ended_at]-[started_at])` in minutes.
+
+4. Added **`month`** and **`day_of_the week`** using Power Query's Date functions.
+
+5. **Removed Outliers**- the rides that were under 1 minute(false starts) or over 24 hours (lost/stolen bikes) were filtered out to prevent distortion of the averages.
+
+
+
+
+
 
 The 12 monthly CSVs were cleaned in Python using the pandas library, the following tasks were performed;
 
