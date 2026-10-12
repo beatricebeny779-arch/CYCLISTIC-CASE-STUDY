@@ -73,7 +73,6 @@ I used Excel Power Query to combine and clean the 12 monthly CSV files. The clea
 
 
 
-
 The 12 monthly CSVs were cleaned in Python using the pandas library, the following tasks were performed;
 
 - 
