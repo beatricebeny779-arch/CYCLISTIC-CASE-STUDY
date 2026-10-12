@@ -23,12 +23,48 @@ The case study follows the six step data analysis process
 🚴 Act
 
 **1. ASK**
-
-
+---
 
 **Business Task**: Cyclistic aims to increase annual memberships. The marketing team wants to understand differences in riding behavior between casual riders and annual members to develop effective marketing strategies.
 
-Business Task
+**Primary Stakeholders**: The director of marketing Lily Moreno and the Cyclistic Executive team.
+
+**Secondary Stakeholders**: The Cyclistic marketing analytics team.
+
+DELIVERABLE: A clear statement of Business task
+
+
+**2.	PREPARE**
+   
+Data Source: 12 months dataset (September 2025 to August 2026) of Cyclistic trip data from Motivate International Inc. [data source](https://divvy-tripdata.s3.amazonaws.com/index.html) with a public [license](https://www.divvybikes.com/data-license-agreement).
+
+The dataset has 12 CSV files, 14 columns and 6.1 million rows. The data also follows the **ROCCC** Approach.
+
+**Reliability**: the data includes complete and accurate ride data from Divvy. Divvy is a program of the Chicago Department of Transportation (CDOT), which owns the city’s bikes, stations and vehicles.
+
+**Original**: the data is from Motivate International Inc, which operates the City of Chicago’s Divvy bike sharing service.
+
+**Comprehensive**: The data includes types of bikes, start and end station name, start and end time, station ID, station longitude and latitude, and membership types.
+
+**Current**: data is up to date to August 2026
+
+**Cited**: the data is cited and under license agreement.
+
+
+**3. PROCESS**
+
+**Tool**: Python (Pandas in Google colab)
+
+The 12 monthly CSVs were cleaned in Python using the pandas library, the following tasks were performed;
+
+- 
+
+
+
+
+
+
+
 
 
 
