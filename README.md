@@ -67,7 +67,10 @@ I used Excel Power Query to combine and clean the 12 monthly CSV files. The clea
 
 4. Added **`month`** and **`day_of_the week`** using Power Query's Date functions.
 
-5. **Removed Outliers**- the rides that were under 1 minute(false starts) or over 24 hours (lost/stolen bikes) were filtered out to prevent distortion of the averages.
+5. Removed outliers- the rides that were under 1 minute(false starts) or over 24 hours (lost/stolen bikes) were filtered out to prevent distortion of the averages.
+
+[data cleaning process](process_1_applied_steps.png)
+
 
 
 
