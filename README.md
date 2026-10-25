@@ -99,12 +99,17 @@ Observation: Casual Riders take significantly longer trips on average (18.42 min
 
 #### 4.3 Average Ride by day of the week
 
-Average ride length by day of the Week]
+[Average ride length by day of the Week](Screenshot-Average-ride-day-of-the-week.png)
+
+Observation: Casual riders take significantly longer trips on weekends (Saturday and Sunday), while their ride lengths drop during the week. Annual members mantain a consistent ride length throughout the entire week. 
 
 
 
 
 
+## 4.3 Average Ride Length by Day of Week
+![Average Ride Length by Day](screenshots/chart2_day_of_week.png)
+*   **Insight:** Casual riders take significantly longer trips on weekends (Saturday and Sunday), while their ride lengths drop during the week. Annual members maintain a consistent ride length throughout the entire week.
 
 
 
