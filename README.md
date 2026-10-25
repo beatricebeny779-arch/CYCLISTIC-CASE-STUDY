@@ -91,6 +91,7 @@ Mode of the day : Saturday
 
 ### 4.2 Average Ride Length : Members vs Casual
 
+[Average Ride Length by User Type](average-ride-length.png.png)
 
 
 
