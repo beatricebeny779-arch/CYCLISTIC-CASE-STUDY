@@ -89,17 +89,20 @@ Max Ride length: 1439.98 minutes
 
 Mode of the day : Saturday
 
-### 4.2 Average Ride Length : Members vs Casual
+#### 4.2 Average Ride Length : Members vs Casual
 
 [Average Ride Length by User Type](average-ride-length.png.png)
 
+Observation: Casual Riders take significantly longer trips on average (18.42 minutes) compared to annual membes (12.22 minutes). This is roughly 51% longer per trip. This suggests that casual riders are likely using the bikes on weekends for leisure, while members use them for shorter efficient daily commutes. 
 
 
 
+#### 4.3 Average Ride by day of the week
 
-### 4.2 Average Ride Length: Members vs. Casual
-![Average Ride Length by User Type](screenshots/chart1_member_vs_casual.png)
-*   **Insight:** Casual riders take [Insert number]% longer trips on average compared to annual members. This shows that casual riders are likely using the bikes for leisure, while members use them for efficient commuting.
+Average ride length by day of the Week]
+
+
+
 
 
 
