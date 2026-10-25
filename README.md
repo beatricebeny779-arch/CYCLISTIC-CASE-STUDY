@@ -109,13 +109,10 @@ Observation: Casual riders take significantly longer trips on weekends (Saturday
 
 The following visualizations were created to communicate the key differences in rider behavior to the marketing team.
 
-#### Chart 1: Average Ride Length by Day of Week
+#### Chart 1: [Average Ride Length by Day of the Week](average-ride-chart.png)
 
 
-
-
-
-Insight: Casual riders take significantly longer trips on weekends (peaking at over 20 minutes), while members maintain a consistent, shorter ride length throughout the week. This highlights the difference between leisure riding and commuting.*
+ Casual riders take significantly longer trips on weekends (peaking at over 20 minutes), while members maintain a consistent, shorter ride length throughout the week. This highlights the difference between leisure riding and commuting.*
 
 
 ## Table of Contents 
