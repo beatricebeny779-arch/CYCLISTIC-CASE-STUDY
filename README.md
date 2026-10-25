@@ -76,8 +76,6 @@ The screenshot below shows my practical data cleaning work in Excel Power Query.
 
 
 
-
-
 The 12 monthly CSVs were cleaned in Python using the pandas library, the following tasks were performed;
 
 - 
