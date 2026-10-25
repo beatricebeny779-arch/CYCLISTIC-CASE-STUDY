@@ -72,7 +72,7 @@ I used Excel Power Query to combine and clean the 12 monthly CSV files. The clea
 
 The screenshot below shows my practical data cleaning work in Excel Power Query.
 
-
+data_cleaning_workflow.png
 
 
 
