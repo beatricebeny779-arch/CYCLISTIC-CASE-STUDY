@@ -70,25 +70,35 @@ I used Excel Power Query to combine and clean the 12 monthly CSV files. The clea
 5. Removed outliers- the rides that were under 1 minute(false starts) or over 24 hours (lost/stolen bikes) were filtered out to prevent distortion of the averages.
 
 
-The screenshot below shows my practical data cleaning work in Excel Power Query.
-
-data_cleaning_workflow.png
-
-
-
-The 12 monthly CSVs were cleaned in Python using the pandas library, the following tasks were performed;
-
-- 
+Check here [data cleaning workflow](data_cleaning_workflow.png) to see my practical data cleaning work in Excel Power Query.
 
 
 
 
 
 
+### **4. Analyze**
+
+I used Excel Pivot Tables and Pivot Charts to calculate descriptive statistics and identify behavioral differences between casual riders and annual members.
+
+
+#### 4.1 Descriptive statistics (Mean, Max, Mode)
+Mean (Average) Ride length: 14.4 minutes 
+
+Max Ride length: 1439.98 minutes
+
+Mode of the day : Saturday
+
+### 4.2 Average Ride Length : Members vs Casual
 
 
 
 
+
+
+### 4.2 Average Ride Length: Members vs. Casual
+![Average Ride Length by User Type](screenshots/chart1_member_vs_casual.png)
+*   **Insight:** Casual riders take [Insert number]% longer trips on average compared to annual members. This shows that casual riders are likely using the bikes for leisure, while members use them for efficient commuting.
 
 
 
