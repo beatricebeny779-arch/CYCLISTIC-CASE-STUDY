@@ -12,6 +12,9 @@ For this analysis, I used 12 months of Divvy trip data, covering **September 202
 
 **Project period:** September 2025 – August 2026.
 
+
+This case study follows the six step data analysis process,❓Ask, 📓Prepare, 🛠️Process, 📈Analyze, 📢Share, 🚴Act.
+
 ## Table of Contents
 
 1. [Ask](#1-ask)
@@ -73,7 +76,7 @@ The dashboard below presents the main visualizations used to communicate the res
 
 
 
-An Excel dashboard and written analysis presenting the key findings and practical recommendations for encouraging casual riders to consider annual memberships.
+
 
 ---
 
@@ -81,10 +84,12 @@ An Excel dashboard and written analysis presenting the key findings and practica
 
 ### Data Source
 
-The analysis uses historical Divvy bike-share trip data made publicly available by Motivate International Inc.
+The analysis used historical Divvy bike-share trip data made publicly available by Motivate International Inc.
 
 - [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
-- [Divvy Data License Agreement](https://www.divvybikes.com/data-license-agreement)
+
+- [License Agreement](https://www.divvybikes.com/data-license-agreement)
+
 
 The selected reporting period covers September 2025 to August 2026.
 
@@ -107,11 +112,16 @@ These fields support analysis of ride duration, rider type, and usage patterns a
 
 I considered the data using the ROCCC framework: Reliability, Originality, Comprehensiveness, Currency, and Citation.
 
-- **Reliability:** The data provides recorded trip details suitable for examining bike-share usage. Data types, timestamps, and calculated durations were checked during processing. However, the dataset should not be assumed to be error-free.
-- **Originality:** The records originate from the Divvy trip-data source published by Motivate International Inc.
-- **Comprehensiveness:** The dataset contains trip timestamps, rider categories, bike types, and station-related fields. Missing station information or other incomplete records may still affect some analyses.
-- **Currency:** The selected data covers September 2025 through August 2026, making it relevant to the stated reporting period.
-- **Citation:** The data source and applicable license are provided above.
+- **Reliability:** The data includes complete and accurate ride data from Divvy. Divvy is a program of the Chicago Department of Transportation (CDOT), which owns the city's bikes, stations and vehicles. 
+- **Originality:** The data is from Motivate International Inc, which operates the City of Chicago's Divvy bike sharing service.
+- **Comprehensiveness:** The data includes types of bikes, start and end station name, start and end time, station ID, station longitude and latitude, and membership types.
+- **Current:** The data is up to date August 2026
+- **Citation:** The data is cited and under license agreement.
+
+
+
+
+
 
 ### Data Privacy
 
