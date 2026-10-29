@@ -1,3 +1,371 @@
+# Cyclistic Bike-Share Case Study: Understanding Rider Behavior
+
+## Project Overview
+
+This project analyzes bike-share trip data to understand how casual riders and annual members use the service differently. It is based on the Cyclistic case study from the Google Data Analytics Professional Certificate.
+
+In the case study, Cyclistic is a fictional bike-share company operating in Chicago. The business objective is to increase annual memberships by understanding casual riders' behavior and identifying opportunities to encourage them to become members.
+
+For this analysis, I used 12 months of Divvy trip data, covering **September 2025 to August 2026**, to explore differences in ride duration and riding patterns between casual riders and members.
+
+**Tools used:** Microsoft Excel, Power Query, PivotTables, and PivotCharts.
+
+**Project period:** September 2025 – August 2026.
+
+## Table of Contents
+
+1. [Ask](#1-ask)
+2. [Prepare](#2-prepare)
+3. [Process](#3-process)
+4. [Analyze](#4-analyze)
+5. [Share](#5-share)
+6. [Act](#6-act)
+7. [Limitations](#limitations)
+8. [Data Source and References](#data-source-and-references)
+
+---
+
+## 1. Ask
+
+### Business Scenario
+
+Cyclistic's marketing team wants to increase annual memberships. The team believes that understanding the differences between casual riders and annual members can help develop marketing strategies that encourage casual riders to subscribe to annual memberships.
+
+### Business Task
+
+Analyze historical bike-share trip data to identify differences in how casual riders and annual members use the service. Use these findings to recommend data-informed marketing strategies that could encourage casual riders to become annual members.
+
+### Key Business Questions
+
+- How does average ride duration differ between casual riders and annual members?
+- How does ride duration vary across the days of the week for each rider type?
+- How does ride volume differ between casual riders and members across the week?
+- What marketing opportunities could these patterns suggest?
+
+### Stakeholders
+
+- **Director of Marketing, Lily Moreno:** Uses the findings to inform marketing campaigns.
+- **Cyclistic Executive Team:** Reviews and makes decisions about proposed marketing initiatives.
+- **Marketing Analytics Team:** Analyzes rider behavior and communicates evidence to support business decisions.
+
+### Deliverable
+
+
+### Deliverable: Excel Dashboard and Analytical Report
+
+I developed an Excel dashboard and written analysis to communicate the key findings from the Cyclistic bike-share case study. Using Excel Power Query, PivotTables, and PivotCharts, I analyzed trip data from September 2025 to August 2026 to compare ride duration and weekly riding patterns between casual riders and annual members.
+
+The analysis identified differences in average ride duration, with casual riders averaging 18.42 minutes per trip compared with 12.22 minutes for annual members. I used these findings, together with the day-of-week analysis, to develop practical recommendations for testing targeted marketing strategies aimed at encouraging casual riders to consider annual memberships.
+
+The dashboard below presents the main visualizations used to communicate the results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Excel dashboard and written analysis presenting the key findings and practical recommendations for encouraging casual riders to consider annual memberships.
+
+---
+
+## 2. Prepare
+
+### Data Source
+
+The analysis uses historical Divvy bike-share trip data made publicly available by Motivate International Inc.
+
+- [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- [Divvy Data License Agreement](https://www.divvybikes.com/data-license-agreement)
+
+The selected reporting period covers September 2025 to August 2026.
+
+The downloaded data consisted of 12 monthly CSV files. The combined dataset contained approximately 6.1 million rows and 14 columns, according to my initial data inventory.
+
+### Data Structure
+
+The dataset contains trip-level information, including:
+
+- Ride identifier
+- Bike type
+- Trip start and end timestamps
+- Start and end station information
+- Station coordinates
+- Rider type (`member_casual`)
+
+These fields support analysis of ride duration, rider type, and usage patterns across different days of the week.
+
+### Data Credibility: ROCCC Framework
+
+I considered the data using the ROCCC framework: Reliability, Originality, Comprehensiveness, Currency, and Citation.
+
+- **Reliability:** The data provides recorded trip details suitable for examining bike-share usage. Data types, timestamps, and calculated durations were checked during processing. However, the dataset should not be assumed to be error-free.
+- **Originality:** The records originate from the Divvy trip-data source published by Motivate International Inc.
+- **Comprehensiveness:** The dataset contains trip timestamps, rider categories, bike types, and station-related fields. Missing station information or other incomplete records may still affect some analyses.
+- **Currency:** The selected data covers September 2025 through August 2026, making it relevant to the stated reporting period.
+- **Citation:** The data source and applicable license are provided above.
+
+### Data Privacy
+
+The published trip data is anonymized. This project analyzes trip-level usage patterns rather than attempting to identify individual riders.
+
+---
+
+## 3. Process
+
+### Tool Used: Excel Power Query
+
+I used Excel Power Query to combine and prepare the 12 monthly CSV files for analysis. The workflow involved the following stages.
+
+**Step 1: Combine monthly files**
+
+Imported the monthly CSV files from the source folder and appended them into a single dataset using Power Query.
+
+**Step 2: Convert data types**
+
+Converted `started_at` and `ended_at` to Date/Time data types. Rows with timestamps that could not be parsed were removed from the analysis.
+
+**Step 3: Calculate ride duration**
+
+Created a custom column called `ride_length` to calculate the difference between the trip end and start timestamps in minutes:
+
+```powerquery
+Duration.TotalMinutes([ended_at] - [started_at])
+```
+
+**Step 4: Create time-based variables**
+
+Added month and day-of-week variables to support comparisons of riding patterns over time.
+
+**Step 5: Filter ride durations**
+
+Removed rides shorter than one minute and rides longer than 24 hours. These filters were applied to reduce the influence of potentially invalid or unusually long trips on average-duration calculations.
+
+The duration filters are analytical decisions; they do not prove that every excluded trip was a false start, lost bike, or stolen bike.
+
+### Data Cleaning Evidence
+
+The following image documents part of the Power Query workflow:
+
+![Data cleaning workflow in Excel Power Query](data_cleaning_workflow.png)
+
+### Data Quality Checks
+
+The processing stage focused on timestamp validity, ride-duration calculation, and filtering. For a reproducible analysis, the final dataset should also be checked for duplicate ride identifiers, negative durations, missing rider categories, and consistency across the monthly files.
+
+---
+
+## 4. Analyze
+
+I used Excel PivotTables and PivotCharts to compare average ride duration and ride volume between casual riders and annual members.
+
+### 4.1 Overall Ride Duration
+
+The initial descriptive results reported for the cleaned dataset were:
+
+| Metric | Reported result |
+|---|---:|
+| Overall mean ride duration | 14.4 minutes |
+| Maximum ride duration | 1,439.98 minutes |
+
+These figures should be verified against the final cleaned dataset before being treated as confirmed results. The maximum duration is approximately 24 hours, consistent with the stated upper-duration filter.
+
+The main analysis focuses on differences between casual riders and members and how those differences vary across the week.
+
+### 4.2 Average Ride Duration by Rider Type
+
+![Average ride duration by rider type](average-ride-length.png.png)
+
+**Finding:** Casual riders had an average ride duration of 18.42 minutes, compared with 12.22 minutes for annual members.
+
+This means the average casual ride was approximately 51% longer than the average member ride.
+
+**Business interpretation:** Casual riders and annual members demonstrate different average trip durations. This difference provides a useful starting point for further investigation into their needs and potential membership preferences. Ride duration alone, however, does not establish why a person rides or whether the trip is for leisure or commuting.
+
+### 4.3 Average Ride Duration by Day of the Week
+
+![Average ride duration by day of the week](Screenshot-Average-ride-day-of-the-week.png)
+
+**Finding:** The day-of-week chart indicates that casual riders tend to have longer average rides on weekends, while member ride durations appear more consistent throughout the week.
+
+**Business interpretation:** If this pattern is confirmed in the underlying data, weekends may provide a useful opportunity to communicate the benefits of annual membership to casual riders. The marketing team should consider this alongside ride volume, membership pricing, and additional customer research.
+
+### 4.4 Ride Volume by Day of the Week
+
+This chart compares the number of rides taken by casual riders and members on each day.
+
+**Insert the ride-volume chart here.** Upload the chart to this GitHub repository and replace this note with an image link using the exact filename.
+
+**Finding:** Add the verified result after checking which days have the highest ride counts for each rider type.
+
+**Business interpretation:** Ride volume can help identify when each rider group uses the service most frequently. Combined with duration patterns, it can help the marketing team select appropriate times for targeted campaigns.
+
+### Key Findings Summary
+
+Based on the results currently available:
+
+1. Casual riders have a higher reported average ride duration than annual members.
+2. The day-of-week duration analysis suggests that casual riders' rides are longer on weekends.
+3. Ride volume by day of the week can provide additional evidence about when each rider group uses the service.
+4. These differences can inform marketing hypotheses, but further research is needed to establish why casual riders choose their current plans and what would motivate them to subscribe.
+
+---
+
+## 5. Share
+
+### Excel Dashboard: Cyclistic Rider Behavior
+
+The analysis was consolidated into an Excel dashboard to communicate the findings clearly to the marketing team and executive stakeholders.
+
+**Insert your final dashboard screenshot below.** Upload the dashboard image to the repository and replace the filename in the Markdown link with the exact filename you use.
+
+![Cyclistic rider behavior dashboard](cyclistic_2026_rider_behavior_dashboard.png)
+
+The dashboard brings together three complementary views:
+
+- **Average ride duration by rider type:** Compares typical trip duration between casual riders and members.
+- **Ride volume by day of the week:** Compares the number of trips made by each group throughout the week.
+- **Average ride duration by day of the week:** Shows how the duration difference changes across the week.
+
+Together, these visualizations provide an overall comparison and a more detailed view of weekly riding patterns.
+
+The dashboard is designed to support evidence-based discussion and marketing decisions rather than to establish rider motivations directly.
+
+---
+
+## 6. Act
+
+Based on the reported patterns, I recommend the following actions for further testing.
+
+### Recommendation 1: Test Weekend Membership Campaigns
+
+If the weekend patterns are confirmed, test membership-focused messages during high-engagement weekend periods. Explain the benefits of annual membership in clear, customer-focused language.
+
+### Recommendation 2: Investigate the Membership Conversion Opportunity
+
+Conduct a short customer survey or use an appropriate feedback channel to understand why casual riders choose single-ride or day-pass options and what might encourage them to subscribe.
+
+### Recommendation 3: Match Campaign Timing to Ride Volume
+
+Use the ride-volume findings to select campaign periods. For example, test digital messages before or during periods when casual-rider activity is high, rather than assuming that every weekend is equally effective.
+
+### Recommendation 4: Measure Campaign Performance
+
+Run a pilot campaign and compare its results with a suitable baseline or comparison group. Track indicators such as:
+
+- Number of casual riders reached
+- Membership-page visits or offer engagement
+- Membership sign-ups attributable to the campaign
+- Conversion rate from targeted casual riders to annual members
+- Campaign cost per new membership
+
+The marketing team should define the measurement period and comparison method before the pilot begins.
+
+### Recommendation 5: Use Evidence to Refine the Strategy
+
+Review the results after the pilot and expand, revise, or discontinue the campaign according to the evidence. Repeat the analysis periodically to determine whether rider behavior changes across seasons or reporting periods.
+
+These recommendations are proposals for testing, not claims that a particular campaign will necessarily increase memberships.
+
+---
+
+## Limitations
+
+This analysis has several limitations:
+
+- Trip records describe observed usage but do not directly reveal a rider's purpose, preferences, income, or reason for choosing a membership plan.
+- Average ride duration can be influenced by unusually long trips and by the duration filters applied during cleaning.
+- The findings cover September 2025 to August 2026 and may not represent all future periods.
+- Ride-level records should not automatically be interpreted as unique customers; one person may make multiple trips.
+- The reported summary statistics and day-of-week findings should be validated against the final cleaned dataset before the results are used for business decisions.
+
+Further research, including customer surveys and a measured marketing pilot, would help determine which interventions are most effective.
+
+---
+
+## Data Source and References
+
+Motivate International Inc. (n.d.). *Divvy trip data*. https://divvy-tripdata.s3.amazonaws.com/index.html
+
+Divvy Bikes. (n.d.). *Data license agreement*. https://www.divvybikes.com/data-license-agreement
+
+Google Data Analytics Professional Certificate. (n.d.). *Cyclistic bike-share case study: How does a bike-share navigate speedy success?* Google/Coursera case study materials.
+
+---
+
+## Project Summary
+
+This project demonstrates an end-to-end data analytics workflow using Excel Power Query, PivotTables, and PivotCharts. It combines, cleans, and analyzes bike-share trip records to compare rider behavior and translate the findings into testable marketing recommendations.
+
+The main takeaway is that **data analysis is not just about identifying differences; it is about turning those differences into questions, decisions, and measurable actions.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## CYCLISTIC-CASE-STUDY
 
 ## Project Overview
@@ -107,9 +475,15 @@ Observation: Casual riders take significantly longer trips on weekends (Saturday
 
 ### 5. Share
 
-The following visualizations were created to communicate the key differences in rider behavior to the marketing team.
+To communicate these findings to the marketing team, I consolidated the analysis into a single Excel dashboard. 
 
-[Average Ride Length by Day of the Week](avg_ride-length-by-day-chart.png)
+
+
+To communicate these findings to the marketing team, I consolidated the analysis into a single Excel dashboard. 
+
+
+
+
 
 Observations: Casual riders take significantly longer trips on weekends (peaking at over 20 minutes), while members maintain a consistent, shorter ride length throughout the week. This highlights the difference between leisure riding and commuting.
 
