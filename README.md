@@ -213,6 +213,7 @@ Based on the results currently available:
 
 The analysis was consolidated into an Excel dashboard to communicate the findings clearly to the marketing team and executive stakeholders.
 
+![Excel dashboard](Excel-dashboard.png)
 
 
 
