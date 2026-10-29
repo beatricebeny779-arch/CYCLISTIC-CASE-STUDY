@@ -72,6 +72,7 @@ The dashboard below presents the main visualizations used to communicate the res
 
 
 
+
 An Excel dashboard and written analysis presenting the key findings and practical recommendations for encouraging casual riders to consider annual memberships.
 
 ---
