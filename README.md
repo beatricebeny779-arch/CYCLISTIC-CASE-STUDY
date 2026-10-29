@@ -66,19 +66,6 @@ The dashboard below presents the main visualizations used to communicate the res
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## 2. Prepare
@@ -120,10 +107,6 @@ I considered the data using the ROCCC framework: Reliability, Originality, Compr
 - **Citation:** The data is cited and under license agreement.
 
 
-
-
-
-
 ### Data Privacy
 
 The published trip data is anonymized. This project analyzes trip-level usage patterns rather than attempting to identify individual riders.
@@ -160,17 +143,16 @@ Added month and day-of-week variables to support comparisons of riding patterns 
 
 Removed rides shorter than one minute and rides longer than 24 hours. These filters were applied to reduce the influence of potentially invalid or unusually long trips on average-duration calculations.
 
-The duration filters are analytical decisions; they do not prove that every excluded trip was a false start, lost bike, or stolen bike.
 
-### Data Cleaning Evidence
+### Data Cleaning
 
-The following image documents part of the Power Query workflow:
+The image below demonstrates the data cleaning workflow. 
 
 ![Data cleaning workflow in Excel Power Query](data_cleaning_workflow.png)
 
 ### Data Quality Checks
 
-The processing stage focused on timestamp validity, ride-duration calculation, and filtering. For a reproducible analysis, the final dataset should also be checked for duplicate ride identifiers, negative durations, missing rider categories, and consistency across the monthly files.
+The processing stage focused on timestamp validity, ride-duration calculation, and filtering. For a meaningful analysis, I checked the final dataset for duplicate ride identifiers, negative durations, missing rider categories, and consistency across the monthly files.
 
 ---
 
@@ -180,32 +162,30 @@ I used Excel PivotTables and PivotCharts to compare average ride duration and ri
 
 ### 4.1 Overall Ride Duration
 
-The initial descriptive results reported for the cleaned dataset were:
+The initial descriptive results for the cleaned dataset were:
 
-| Metric | Reported result |
+| Metric | Results |
 |---|---:|
 | Overall mean ride duration | 14.4 minutes |
 | Maximum ride duration | 1,439.98 minutes |
 
-These figures should be verified against the final cleaned dataset before being treated as confirmed results. The maximum duration is approximately 24 hours, consistent with the stated upper-duration filter.
-
-The main analysis focuses on differences between casual riders and members and how those differences vary across the week.
 
 ### 4.2 Average Ride Duration by Rider Type
 
-![Average ride duration by rider type](average-ride-length.png.png)
+![Average ride duration by rider type](avg-ride-length-2026.png)
 
-**Finding:** Casual riders had an average ride duration of 18.42 minutes, compared with 12.22 minutes for annual members.
+**Findings:** Casual riders had an average ride duration of 18.42 minutes, compared with 12.22 minutes for annual members.This means the average casual ride was approximately 51% longer than the average member ride.
 
-This means the average casual ride was approximately 51% longer than the average member ride.
+**Interpretation:** Casual riders and annual members demonstrate different average trip durations. This difference provides a useful starting point for further investigation into their needs and potential membership preferences. Ride duration alone, however, does not establish why a person rides or whether the trip is for leisure or commuting.
 
-**Business interpretation:** Casual riders and annual members demonstrate different average trip durations. This difference provides a useful starting point for further investigation into their needs and potential membership preferences. Ride duration alone, however, does not establish why a person rides or whether the trip is for leisure or commuting.
-
-### 4.3 Average Ride Duration by Day of the Week
+### 4.3 Average Ride Duration by Day of the Week 
 
 ![Average ride duration by day of the week](Screenshot-Average-ride-day-of-the-week.png)
 
-**Finding:** The day-of-week chart indicates that casual riders tend to have longer average rides on weekends, while member ride durations appear more consistent throughout the week.
+
+
+
+**Findings:** The day-of-week chart indicates that casual riders tend to have longer average rides on weekends, while member ride durations appear more consistent throughout the week.
 
 **Business interpretation:** If this pattern is confirmed in the underlying data, weekends may provide a useful opportunity to communicate the benefits of annual membership to casual riders. The marketing team should consider this alongside ride volume, membership pricing, and additional customer research.
 
