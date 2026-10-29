@@ -81,7 +81,7 @@ The analysis used historical Divvy bike-share trip data made publicly available 
 
 The selected reporting period covers September 2025 to August 2026.
 
-The downloaded data consisted of 12 monthly CSV files. The combined dataset contained approximately 6.1 million rows and 14 columns, according to my initial data inventory.
+The downloaded data consisted of 12 monthly CSV files. The combined dataset contained approximately 6.1 million rows and 17 columns, according to my initial data inventory.
 
 ### Data Structure
 
