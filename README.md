@@ -180,24 +180,21 @@ The initial descriptive results for the cleaned dataset were:
 
 ### 4.3 Average Ride Duration by Day of the Week 
 
-![Average ride duration by day of the week](Screenshot-Average-ride-day-of-the-week.png)
-
-
-
+![Average ride duration by day of the week](Avg-duration-by-day.png)
 
 **Findings:** The day-of-week chart indicates that casual riders tend to have longer average rides on weekends, while member ride durations appear more consistent throughout the week.
 
-**Business interpretation:** If this pattern is confirmed in the underlying data, weekends may provide a useful opportunity to communicate the benefits of annual membership to casual riders. The marketing team should consider this alongside ride volume, membership pricing, and additional customer research.
+**Interpretation:** If this pattern is confirmed in the underlying data, weekends may provide a useful opportunity to communicate the benefits of annual membership to casual riders. The marketing team should consider this alongside ride volume, membership pricing, and additional customer research.
 
 ### 4.4 Ride Volume by Day of the Week
 
-This chart compares the number of rides taken by casual riders and members on each day.
+<img width="871" height="589" alt="image" src="https://github.com/user-attachments/assets/96750a14-c1f0-4f16-b64b-ffe1e47bd1a3" />
 
-**Insert the ride-volume chart here.** Upload the chart to this GitHub repository and replace this note with an image link using the exact filename.
+**Findings:** The data reveals distinct usage pattens. Annual members account for a significantly higher volume of rides during the weekdays. Casual riders volume peak on Saturdays and Sundays. 
 
-**Finding:** Add the verified result after checking which days have the highest ride counts for each rider type.
 
-**Business interpretation:** Ride volume can help identify when each rider group uses the service most frequently. Combined with duration patterns, it can help the marketing team select appropriate times for targeted campaigns.
+**Interpretation**This suggests that annual members use the service for regular commuting while casual riders use bikes for leisure and other weekend activities.
+
 
 ### Key Findings Summary
 
