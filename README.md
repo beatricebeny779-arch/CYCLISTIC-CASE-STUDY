@@ -62,6 +62,7 @@ The analysis identified differences in average ride duration, with casual riders
 
 The dashboard below presents the main visualizations used to communicate the results.
 
+![Rider behavior dashboard](2026-rider-behavior-dashboard.png)
 
 
 
