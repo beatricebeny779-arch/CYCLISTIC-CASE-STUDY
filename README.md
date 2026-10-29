@@ -192,7 +192,6 @@ The initial descriptive results for the cleaned dataset were:
 
 **Findings:** The data reveals distinct usage pattens. Annual members account for a significantly higher volume of rides during the weekdays. Casual riders volume peak on Saturdays and Sundays. 
 
-
 **Interpretation**This suggests that annual members use the service for regular commuting while casual riders use bikes for leisure and other weekend activities.
 
 
@@ -216,39 +215,29 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 ![Excel dashboard](Excel-dashboard.png)
 
 
-
-
-
-
-The dashboard brings together three complementary views:
-
 - **Average ride duration by rider type:** Compares typical trip duration between casual riders and members.
 - **Ride volume by day of the week:** Compares the number of trips made by each group throughout the week.
 - **Average ride duration by day of the week:** Shows how the duration difference changes across the week.
-
-Together, these visualizations provide an overall comparison and a more detailed view of weekly riding patterns.
-
-The dashboard is designed to support evidence-based discussion and marketing decisions rather than to establish rider motivations directly.
 
 ---
 
 ## 6. Act
 
-Based on the reported patterns, I recommend the following actions for further testing.
+Based on the patterns observed, I recommend the following actions.
 
-### Recommendation 1: Test Weekend Membership Campaigns
+### 1: Test Weekend Membership Campaigns
 
 If the weekend patterns are confirmed, test membership-focused messages during high-engagement weekend periods. Explain the benefits of annual membership in clear, customer-focused language.
 
-### Recommendation 2: Investigate the Membership Conversion Opportunity
+### 2: Investigate the Membership Conversion Opportunity
 
 Conduct a short customer survey or use an appropriate feedback channel to understand why casual riders choose single-ride or day-pass options and what might encourage them to subscribe.
 
-### Recommendation 3: Match Campaign Timing to Ride Volume
+### 3: Match Campaign Timing to Ride Volume
 
 Use the ride-volume findings to select campaign periods. For example, test digital messages before or during periods when casual-rider activity is high, rather than assuming that every weekend is equally effective.
 
-### Recommendation 4: Measure Campaign Performance
+### 4: Measure Campaign Performance
 
 Run a pilot campaign and compare its results with a suitable baseline or comparison group. Track indicators such as:
 
@@ -260,7 +249,7 @@ Run a pilot campaign and compare its results with a suitable baseline or compari
 
 The marketing team should define the measurement period and comparison method before the pilot begins.
 
-### Recommendation 5: Use Evidence to Refine the Strategy
+### 5: Use Evidence to Refine the Strategy
 
 Review the results after the pilot and expand, revise, or discontinue the campaign according to the evidence. Repeat the analysis periodically to determine whether rider behavior changes across seasons or reporting periods.
 
@@ -276,7 +265,7 @@ This analysis has several limitations:
 - Average ride duration can be influenced by unusually long trips and by the duration filters applied during cleaning.
 - The findings cover September 2025 to August 2026 and may not represent all future periods.
 - Ride-level records should not automatically be interpreted as unique customers; one person may make multiple trips.
-- The reported summary statistics and day-of-week findings should be validated against the final cleaned dataset before the results are used for business decisions.
+
 
 Further research, including customer surveys and a measured marketing pilot, would help determine which interventions are most effective.
 
@@ -296,7 +285,6 @@ Google Data Analytics Professional Certificate. (n.d.). *Cyclistic bike-share ca
 
 This project demonstrates an end-to-end data analytics workflow using Excel Power Query, PivotTables, and PivotCharts. It combines, cleans, and analyzes bike-share trip records to compare rider behavior and translate the findings into testable marketing recommendations.
 
-The main takeaway is that **data analysis is not just about identifying differences; it is about turning those differences into questions, decisions, and measurable actions.**
 
 
 
