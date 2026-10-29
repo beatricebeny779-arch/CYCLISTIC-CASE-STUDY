@@ -213,9 +213,11 @@ Based on the results currently available:
 
 The analysis was consolidated into an Excel dashboard to communicate the findings clearly to the marketing team and executive stakeholders.
 
-**Insert your final dashboard screenshot below.** Upload the dashboard image to the repository and replace the filename in the Markdown link with the exact filename you use.
 
-![Cyclistic rider behavior dashboard](cyclistic_2026_rider_behavior_dashboard.png)
+
+
+
+
 
 The dashboard brings together three complementary views:
 
