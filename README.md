@@ -18,13 +18,25 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
 
 ## Table of Contents
 
+1. [Ask](#-ask)
+2. [Prepare](#2-prepare)
+3. [Process](#3-process)
+4. [Analyze](#4-analyze)
+5. [Share](#5-share)
+6. [Act](#6-act)
+7. [Limitations](#7-limitations)
+8. [Data Source and References](#8-data-source-and-references)
+
+
+
+
 1. [Ask](#1-ask)
 2. [Prepare](#2-prepare)
 3. [Process](#3-process)
 4. [Analyze](#4-analyze)
 5. [Share](#5-share)
 6. [Act](#6-act)
-7. [Limitations](#limitations)
+7. [Limitations](#7-limitations)
 8. [Data Source and References](#data-source-and-references)
 
 ---
