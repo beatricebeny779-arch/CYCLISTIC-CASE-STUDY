@@ -1,7 +1,7 @@
 ## Cyclistic Bike-Share Case Study: Understanding Rider Behavior
 
 
-## Project Overview
+## Project Overview 
 
 This project analyzes bike-share trip data to understand how casual riders and annual members use the service differently. It is based on the Cyclistic case study from the Google Data Analytics Professional Certificate.
 
