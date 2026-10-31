@@ -1,6 +1,24 @@
 # Cyclistic Bike-Share Case Study: Understanding Rider Behavior
 
+
+
+
+
+
+
+
+
+
+
 ## Project Overview
+
+
+
+
+
+
+
+
 
 This project analyzes bike-share trip data to understand how casual riders and annual members use the service differently. It is based on the Cyclistic case study from the Google Data Analytics Professional Certificate.
 
@@ -218,7 +236,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ## 6. Act
 
-Conclusions based on the analysis
+**Conclusions based on the analysis.**
 
 - Casual riders ride mostly on weekends.
   
@@ -229,12 +247,15 @@ Conclusions based on the analysis
 Marketing recommendations to convert casual riders into annual members.
 
  **1.Introduce Targeted Weekend Membership Campaigns:** The company should consider targeting membership campaigns during periods of high casual-rider activity, particularly on Saturdays.  Campaign messages should communicate the convenience, flexibility and potential value of annual membership to frequent casual users.
+ 
 
 **2.Conduct Customer Research to Understand Membership Barriers:** short customer surveys, interviews or feedback to understand the factors influencing membership decisions. Research should explore on perceived membership costs, frequency of bike usage, convenience, benefits from the annual subscriptions.
 
+
 **3. Match Campaign Timing to Ride Volume:** Use the ride-volume findings to select campaign periods. Test digital messages before or during periods when the casual-rider activity is high. 
 
-**4. Measure the campaign performance:** Run a pilot campaign and compare its results with a suitable baseline or comparison group.
+
+**4. Measure the campaign performance:** Conduct a pilot campaign and compare its results with a suitable baseline or comparison group.
 
 ---
 
@@ -243,8 +264,11 @@ Marketing recommendations to convert casual riders into annual members.
 This analysis has several limitations:
 
 - Trip records describe observed usage but do not directly reveal a rider's purpose, preferences, income, or reason for choosing a membership plan.
+  
 - Average ride duration can be influenced by unusually long trips and by the duration filters applied during cleaning.
+  
 - The findings cover September 2025 to August 2026 and may not represent all future periods.
+  
 - Ride-level records should not automatically be interpreted as unique customers; one person may make multiple trips.
 
 
