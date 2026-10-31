@@ -210,7 +210,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ## 6. Act 🚀
 
-**6.1 Conclusions based on the analysis.**
+**6.1 Conclusions based on our the analysis.**
 
 - Casual riders ride mostly on weekends.
   
