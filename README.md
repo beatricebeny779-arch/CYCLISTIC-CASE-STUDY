@@ -1,24 +1,7 @@
-# Cyclistic Bike-Share Case Study: Understanding Rider Behavior
-
-
-
-
-
-
-
-
-
+## Cyclistic Bike-Share Case Study: Understanding Rider Behavior
 
 
 ## Project Overview
-
-
-
-
-
-
-
-
 
 This project analyzes bike-share trip data to understand how casual riders and annual members use the service differently. It is based on the Cyclistic case study from the Google Data Analytics Professional Certificate.
 
@@ -207,16 +190,6 @@ The initial descriptive results for the cleaned dataset were:
 
 **Interpretation**This suggests that annual members use the service for regular commuting while casual riders use bikes for leisure and other weekend activities.
 
-
-### Key Findings Summary
-
-Based on the results currently available:
-
-1. Casual riders have a higher reported average ride duration than annual members.
-2. The day-of-week duration analysis suggests that casual riders' rides are longer on weekends.
-3. Ride volume by day of the week can provide additional evidence about when each rider group uses the service.
-4. These differences can inform marketing hypotheses, but further research is needed to establish why casual riders choose their current plans and what would motivate them to subscribe.
-
 ---
 
 ## 5. Share
@@ -236,7 +209,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ## 6. Act
 
-**Conclusions based on the analysis.**
+**6.1 Conclusions based on the analysis.**
 
 - Casual riders ride mostly on weekends.
   
@@ -244,7 +217,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 - Most active months for casual riders are from May to September.
 
-Marketing recommendations to convert casual riders into annual members.
+**6.2 Marketing recommendations to convert casual riders into annual members.**
 
  **1.Introduce Targeted Weekend Membership Campaigns:** The company should consider targeting membership campaigns during periods of high casual-rider activity, particularly on Saturdays.  Campaign messages should communicate the convenience, flexibility and potential value of annual membership to frequent casual users.
  
@@ -265,14 +238,10 @@ This analysis has several limitations:
 
 - Trip records describe observed usage but do not directly reveal a rider's purpose, preferences, income, or reason for choosing a membership plan.
   
-- Average ride duration can be influenced by unusually long trips and by the duration filters applied during cleaning.
-  
 - The findings cover September 2025 to August 2026 and may not represent all future periods.
   
 - Ride-level records should not automatically be interpreted as unique customers; one person may make multiple trips.
 
-
-Further research, including customer surveys and a measured marketing pilot, would help determine which interventions are most effective.
 
 ---
 
