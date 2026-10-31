@@ -14,7 +14,7 @@ For this analysis, I used 12 months of Divvy trip data, covering **September 202
 **Project period:** September 2025 – August 2026.
 
 
-This case study follows the six step data analysis process,❓Ask, 📓Prepare, 🛠️Process, 📈Analyze, 📢Share, 🚴Act.
+This case study follows the six step data analysis process, **Ask**, **Prepare**, **Process**, **Analyze**, **Share**, **Act.**
 
 ## Table of Contents
 
@@ -29,7 +29,8 @@ This case study follows the six step data analysis process,❓Ask, 📓Prepare, 
 
 ---
 
-## 1. Ask
+
+## 1. Ask ❓
 
 ### Business Scenario
 
@@ -64,7 +65,7 @@ The dashboard below presents the main visualizations used to communicate the res
 
 ---
 
-## 2. Prepare
+## 2. Prepare 📓
 
 ### Data Source
 
@@ -109,7 +110,7 @@ The published trip data is anonymized. This project analyzes trip-level usage pa
 
 ---
 
-## 3. Process
+## 3. Process 🛠️
 
 ### Tool Used: Excel Power Query
 
@@ -152,7 +153,7 @@ The processing stage focused on timestamp validity, ride-duration calculation, a
 
 ---
 
-## 4. Analyze
+## 4. Analyze 📈
 
 I used Excel PivotTables and PivotCharts to compare average ride duration and ride volume between casual riders and annual members.
 
@@ -192,7 +193,7 @@ The initial descriptive results for the cleaned dataset were:
 
 ---
 
-## 5. Share
+## 5. Share 📢
 
 ### Excel Dashboard: Cyclistic Rider Behavior
 
@@ -207,7 +208,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ---
 
-## 6. Act
+## 6. Act 🚀
 
 **6.1 Conclusions based on the analysis.**
 
@@ -221,8 +222,10 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
  **1.Introduce Targeted Weekend Membership Campaigns:** The company should consider targeting membership campaigns during periods of high casual-rider activity, particularly on Saturdays.  Campaign messages should communicate the convenience, flexibility and potential value of annual membership to frequent casual users.
  
+ 
 
 **2.Conduct Customer Research to Understand Membership Barriers:** short customer surveys, interviews or feedback to understand the factors influencing membership decisions. Research should explore on perceived membership costs, frequency of bike usage, convenience, benefits from the annual subscriptions.
+
 
 
 **3. Match Campaign Timing to Ride Volume:** Use the ride-volume findings to select campaign periods. Test digital messages before or during periods when the casual-rider activity is high. 
