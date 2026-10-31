@@ -47,11 +47,8 @@ Analyze historical bike-share trip data to identify differences in how casual ri
 
 ### Stakeholders
 
-- **Primary Stakeholders**: Lily Moreno, the director of the marketing team
-
-- **Director of Marketing, Lily Moreno:** Uses the findings to inform marketing campaigns.
-- **Cyclistic Executive Team:** Reviews and makes decisions about proposed marketing initiatives.
-- **Marketing Analytics Team:** Analyzes rider behavior and communicates evidence to support business decisions.
+- **Primary Stakeholders:** Lily Moreno, the director of the marketing team and the Cyclistic Executive team.
+- **Secondary Stakeholders:** Marketing team, analyzes rider behavior and communicates evidence to support business decisions.
 
 
 ### Deliverable: Excel Dashboard and Analytical Report
@@ -63,8 +60,6 @@ The analysis identified differences in average ride duration, with casual riders
 The dashboard below presents the main visualizations used to communicate the results.
 
 ![Rider behavior dashboard](2026-rider-behavior-dashboard.png)
-
-
 
 ---
 
@@ -223,37 +218,23 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ## 6. Act
 
-Based on the patterns observed, I recommend the following actions.
+Conclusions based on the analysis
 
-### 1: Test Weekend Membership Campaigns
+- Casual riders ride mostly on weekends.
+  
+- Casual riders ride longer duration, but least total trips.
 
-If the weekend patterns are confirmed, test membership-focused messages during high-engagement weekend periods. Explain the benefits of annual membership in clear, customer-focused language.
+- Most active months for casual riders are from May to September.
 
-### 2: Investigate the Membership Conversion Opportunity
+Marketing recommendations to convert casual riders into annual members.
 
-Conduct a short customer survey or use an appropriate feedback channel to understand why casual riders choose single-ride or day-pass options and what might encourage them to subscribe.
+ **1.Introduce Targeted Weekend Membership Campaigns:** The company should consider targeting membership campaigns during periods of high casual-rider activity, particularly on Saturdays.  Campaign messages should communicate the convenience, flexibility and potential value of annual membership to frequent casual users.
 
-### 3: Match Campaign Timing to Ride Volume
+**2.Conduct Customer Research to Understand Membership Barriers:** short customer surveys, interviews or feedback to understand the factors influencing membership decisions. Research should explore on perceived membership costs, frequency of bike usage, convenience, benefits from the annual subscriptions.
 
-Use the ride-volume findings to select campaign periods. For example, test digital messages before or during periods when casual-rider activity is high, rather than assuming that every weekend is equally effective.
+**3. Match Campaign Timing to Ride Volume:** Use the ride-volume findings to select campaign periods. Test digital messages before or during periods when the casual-rider activity is high. 
 
-### 4: Measure Campaign Performance
-
-Run a pilot campaign and compare its results with a suitable baseline or comparison group. Track indicators such as:
-
-- Number of casual riders reached
-- Membership-page visits or offer engagement
-- Membership sign-ups attributable to the campaign
-- Conversion rate from targeted casual riders to annual members
-- Campaign cost per new membership
-
-The marketing team should define the measurement period and comparison method before the pilot begins.
-
-### 5: Use Evidence to Refine the Strategy
-
-Review the results after the pilot and expand, revise, or discontinue the campaign according to the evidence. Repeat the analysis periodically to determine whether rider behavior changes across seasons or reporting periods.
-
-These recommendations are proposals for testing, not claims that a particular campaign will necessarily increase memberships.
+**4. Measure the campaign performance:** Run a pilot campaign and compare its results with a suitable baseline or comparison group.
 
 ---
 
