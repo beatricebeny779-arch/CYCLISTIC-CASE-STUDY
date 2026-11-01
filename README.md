@@ -19,9 +19,6 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
 ## Table of Contents
 
 
-
-
-
 1. [Ask](#1-ask-)
    
 2. [Prepare](#2-prepare-)
@@ -120,6 +117,8 @@ I considered the data using the ROCCC framework: Reliability, Originality, Compr
 The published trip data is anonymized. This project analyzes trip-level usage patterns rather than attempting to identify individual riders.
 
 ---
+
+
 
 ## 3. Process ⚙️
 
@@ -246,7 +245,10 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ---
 
+
 ## 7. Limitations ⚠️
+
+
 
 This analysis has several limitations:
 
