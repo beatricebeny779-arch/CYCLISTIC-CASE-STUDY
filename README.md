@@ -121,7 +121,7 @@ The published trip data is anonymized. This project analyzes trip-level usage pa
 
 ---
 
-## 3. Process 🛠️
+## 3. Process ⚙️
 
 ### Tool Used: Excel Power Query
 
