@@ -23,7 +23,7 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
    
 2. [Prepare](#2-prepare-)
  
-3. [Process](https://github.com/beatricebeny779-arch/CYCLISTIC-CASE-STUDY/blob/main/README.md#3-process-%EF%B8%8F-)
+3. [Process](#3-process)
    
 4. [Analyze](#4-analyze-)
 
@@ -119,7 +119,7 @@ The published trip data is anonymized. This project analyzes trip-level usage pa
 ---
 
 
-## 3. Process ⚙️
+## 3. Process
 
 ### Tool Used: Excel Power Query
 
