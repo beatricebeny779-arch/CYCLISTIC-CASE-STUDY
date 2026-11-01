@@ -246,7 +246,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ---
 
-## Limitations ⚠️
+## 7. Limitations ⚠️
 
 This analysis has several limitations:
 
@@ -259,7 +259,7 @@ This analysis has several limitations:
 
 ---
 
-## Data Source and References 📚
+## 8. Data Source and References 📚
 
 Motivate International Inc. (n.d.). [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
