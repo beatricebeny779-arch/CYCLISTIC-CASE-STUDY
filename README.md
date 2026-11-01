@@ -31,7 +31,7 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
 
 6. [Act](#6-act-)
 
-7. [Limitations](#7-limitations-)
+7. [Limitations](#7-limitations)
 
 8. [Data Source and References](#8-data-source-and-references-)
 
@@ -245,7 +245,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 ---
 
 
-## 7. Limitations ⚠️
+## 7. Limitations 
 
 
 
