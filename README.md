@@ -1,6 +1,6 @@
 
 
-## Cyclistic Bike-Share Case Study: Understanding Rider Behavior  
+## Cyclistic Bike-Share Case Study: Understanding Rider Behavior 
 
 
 
