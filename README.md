@@ -42,6 +42,8 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
 
 8. [Data Source and References](#8-data-source-and-references-)
 
+9. [Project Summary](#9-project-summary)
+
 ---
 
 
@@ -276,7 +278,7 @@ This analysis has several limitations:
 
 ---
 
-### Project Summary
+### 9. Project Summary
 
 This project demonstrates an end-to-end data analytics workflow using Excel Power Query, PivotTables, and PivotCharts. It combines, cleans, and analyzes bike-share trip records to compare rider behavior and translate the findings into testable marketing recommendations.
 
