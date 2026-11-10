@@ -156,13 +156,13 @@ Added month and day-of-week variables to support comparisons of riding patterns 
 Removed rides shorter than one minute and rides longer than 24 hours. These filters were applied to reduce the influence of potentially invalid or unusually long trips on average-duration calculations.
 
 
-### Data Cleaning
+#### Data Cleaning
 
 The image below demonstrates the data cleaning workflow. 
 
 ![Data cleaning workflow in Excel Power Query](data_cleaning_workflow.png)
 
-### Data Quality Checks
+#### Data Quality Checks
 
 The processing stage focused on timestamp validity, ride-duration calculation, and filtering. For a meaningful analysis, I checked the final dataset for duplicate ride identifiers, negative durations, missing rider categories, and consistency across the monthly files.
 
