@@ -8,7 +8,7 @@
 
 
 
-## Project Overview 
+### Project Overview 
 
 This project analyzes bike-share trip data to understand how casual riders and annual members use the service differently. It is based on the Cyclistic case study from the Google Data Analytics Professional Certificate.
 
@@ -23,7 +23,7 @@ For this analysis, I used 12 months of Divvy trip data, covering **September 202
 
 This case study follows the six step data analysis process, **Ask**, **Prepare**, **Process**, **Analyze**, **Share**, **Act.**
 
-## Table of Contents
+### Table of Contents
 
 
 1. [Ask](#1-ask-)
@@ -45,7 +45,7 @@ This case study follows the six step data analysis process, **Ask**, **Prepare**
 ---
 
 
-## 1. Ask ❓
+### 1. Ask ❓
 
 ### Business Scenario
 
@@ -80,9 +80,9 @@ The dashboard below presents the main visualizations used to communicate the res
 
 ---
 
-## 2. Prepare 📓
+### 2. Prepare 📓
 
-### Data Source
+#### Data Source
 
 The analysis used historical Divvy bike-share trip data made publicly available by Motivate International Inc.
 
@@ -95,7 +95,7 @@ The selected reporting period covers September 2025 to August 2026.
 
 The downloaded data consisted of 12 monthly CSV files. The combined dataset contained approximately 6.1 million rows and 17 columns, according to my initial data inventory.
 
-### Data Structure
+#### Data Structure
 
 The dataset contains trip-level information, including:
 
@@ -108,7 +108,7 @@ The dataset contains trip-level information, including:
 
 These fields support analysis of ride duration, rider type, and usage patterns across different days of the week.
 
-### Data Credibility: ROCCC Framework
+#### Data Credibility: ROCCC Framework
 
 I considered the data using the ROCCC framework: Reliability, Originality, Comprehensiveness, Currency, and Citation.
 
@@ -119,16 +119,15 @@ I considered the data using the ROCCC framework: Reliability, Originality, Compr
 - **Citation:** The data is cited and under license agreement.
 
 
-### Data Privacy
+#### Data Privacy
 
 The published trip data is anonymized. This project analyzes trip-level usage patterns rather than attempting to identify individual riders.
 
----
 
 
-## 3. Process
+### 3. Process
 
-### Tool Used: Excel Power Query
+ **Tool Used:** Excel Power Query
 
 I used Excel Power Query to combine and prepare the 12 monthly CSV files for analysis. The workflow involved the following stages.
 
@@ -169,11 +168,11 @@ The processing stage focused on timestamp validity, ride-duration calculation, a
 
 ---
 
-## 4. Analyze 📈
+### 4. Analyze 📈
 
 I used Excel PivotTables and PivotCharts to compare average ride duration and ride volume between casual riders and annual members.
 
-### 4.1 Overall Ride Duration
+#### 4.1 Overall Ride Duration
 
 The initial descriptive results for the cleaned dataset were:
 
@@ -183,7 +182,7 @@ The initial descriptive results for the cleaned dataset were:
 | Maximum ride duration | 1,439.98 minutes |
 
 
-### 4.2 Average Ride Duration by Rider Type
+#### 4.2 Average Ride Duration by Rider Type
 
 ![Average ride duration by rider type](avg-ride-length-2026.png)
 
@@ -191,7 +190,7 @@ The initial descriptive results for the cleaned dataset were:
 
 **Interpretation:** Casual riders and annual members demonstrate different average trip durations. This difference provides a useful starting point for further investigation into their needs and potential membership preferences. Ride duration alone, however, does not establish why a person rides or whether the trip is for leisure or commuting.
 
-### 4.3 Average Ride Duration by Day of the Week 
+#### 4.3 Average Ride Duration by Day of the Week 
 
 ![Average ride duration by day of the week](Avg-duration-by-day.png)
 
@@ -199,7 +198,7 @@ The initial descriptive results for the cleaned dataset were:
 
 **Interpretation:** If this pattern is confirmed in the underlying data, weekends may provide a useful opportunity to communicate the benefits of annual membership to casual riders. The marketing team should consider this alongside ride volume, membership pricing, and additional customer research.
 
-### 4.4 Ride Volume by Day of the Week
+#### 4.4 Ride Volume by Day of the Week
 
 <img width="871" height="589" alt="image" src="https://github.com/user-attachments/assets/96750a14-c1f0-4f16-b64b-ffe1e47bd1a3" />
 
@@ -209,9 +208,9 @@ The initial descriptive results for the cleaned dataset were:
 
 ---
 
-## 5. Share 📢
+### 5. Share 📢
 
-### Excel Dashboard: Cyclistic Rider Behavior
+#### Excel Dashboard: Cyclistic Rider Behavior
 
 The analysis was consolidated into an Excel dashboard to communicate the findings clearly to the marketing team and executive stakeholders.
 
@@ -224,7 +223,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 
 ---
 
-## 6. Act 🚀
+### 6. Act 🚀
 
 **6.1 Conclusions based on our the analysis.**
 
@@ -252,7 +251,7 @@ The analysis was consolidated into an Excel dashboard to communicate the finding
 ---
 
 
-## 7. Limitations 
+### 7. Limitations 
 
 
 
@@ -267,7 +266,7 @@ This analysis has several limitations:
 
 ---
 
-## 8. Data Source and References 📚
+### 8. Data Source and References 📚
 
 *Motivate International Inc. (n.d.). [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)*
 
@@ -277,7 +276,7 @@ This analysis has several limitations:
 
 ---
 
-## Project Summary
+### Project Summary
 
 This project demonstrates an end-to-end data analytics workflow using Excel Power Query, PivotTables, and PivotCharts. It combines, cleans, and analyzes bike-share trip records to compare rider behavior and translate the findings into testable marketing recommendations.
 
