@@ -269,11 +269,11 @@ This analysis has several limitations:
 
 ## 8. Data Source and References 📚
 
-Motivate International Inc. (n.d.). [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+*Motivate International Inc. (n.d.). [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)*
 
-Divvy Bikes. (n.d.). [Data License Agreement](https://www.divvybikes.com/data-license-agreement)
+*Divvy Bikes. (n.d.). [Data License Agreement](https://www.divvybikes.com/data-license-agreement)*
 
-Google Data Analytics Professional Certificate. (n.d.). Cyclistic bike-share case study: How does a bike-share navigate speedy success? Google/Coursera case study materials.
+*Google Data Analytics Professional Certificate: Capstone Project*
 
 ---
 
